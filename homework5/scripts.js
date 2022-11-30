@@ -1,32 +1,11 @@
-// // From String to Number
-// const stringNumber = '42';
-// console.log(typeof stringNumber);
-// const changeType = Number(stringNumber);
-// console.log(typeof changeType);
-// // From Number to String
-// const num = 42;
-// console.log(typeof num);
-// const changeTypeOfNum = String(num);
-// console.log(typeof changeTypeOfNum);
-// // From String to Boolean
-// const stringWithTrue = 'true';
-// console.log(typeof stringWithTrue);
-// const booleanWithTrue = Boolean(stringWithTrue);
-// console.log(typeof booleanWithTrue);
-//
-// // Text to Number
-// const text = '21 apples';
-// const tryToConvert = Number(text);
-// console.log(tryToConvert, typeof tryToConvert);
-//
-// // Boolean to Number
-// console.log(Number(true));
-// console.log(Number(false));
-
-// const stringToValue = + true;
-// console.log(typeof stringToValue);
-// console.log(stringToValue);
-
-const num = -'-42';
-console.log(num);
-console.log(num + 10);
+// Отримати від користувача 3 рядки та вивести їх у довільному порядку однією командою (конкатенація);
+const getFirstLine = prompt('Enter first line:');
+const getSecondLine = prompt('Enter second line:');
+const getThirdLine = prompt('Enter third line:');
+const concatenateLines = `${getFirstLine} ${getSecondLine} ${getThirdLine}`;
+alert(concatenateLines);
+// Розкласти за цифрами п'ятизначне число і вивести у вихідному порядку через пропуск.
+const fiveNumbers = 52439;
+const splitFiveNumbers = String(fiveNumbers).split('');
+const result = `Decomposition of a five-digit number (52439): ${splitFiveNumbers[0]} ${splitFiveNumbers[1]} ${splitFiveNumbers[2]} ${splitFiveNumbers[3]} ${splitFiveNumbers[4]}`;
+alert(result);

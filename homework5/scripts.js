@@ -2,7 +2,7 @@
 const getFirstLine = prompt('Enter first line:');
 const getSecondLine = prompt('Enter second line:');
 const getThirdLine = prompt('Enter third line:');
-const concatenateLines = `${getFirstLine} ${getSecondLine} ${getThirdLine}`;
+const concatenateLines = getFirstLine + ' ' + getSecondLine + ' ' + getThirdLine;
 alert(concatenateLines);
 
 // Розкласти за цифрами п'ятизначне число і вивести у вихідному порядку через пропуск.

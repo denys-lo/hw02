@@ -4,6 +4,7 @@ const getSecondLine = prompt('Enter second line:');
 const getThirdLine = prompt('Enter third line:');
 const concatenateLines = `${getFirstLine} ${getSecondLine} ${getThirdLine}`;
 alert(concatenateLines);
+
 // Розкласти за цифрами п'ятизначне число і вивести у вихідному порядку через пропуск.
 const fiveNumbers = 52439;
 const splitFiveNumbers = String(fiveNumbers).split('');
